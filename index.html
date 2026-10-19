@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Estilo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        :root {
+            --preto: #000;
+            --dourado: #d4af37;
+            --branco: #fff;
+        }
+        body {
+            background: var(--preto);
+            color: var(--branco);
+            line-height: 1.6;
+        }
+        header {
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 2px solid var(--dourado);
+        }
+        h1 {
+            color: var(--dourado);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitulo {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: var(--dourado);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .servico {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid #333;
+            font-size: 1.1rem;
+        }
+        .horario p {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        .whatsapp {
+            position: fixed;
+            bottom: 2rem;
+            right: 1rem;
+            background: #25d366;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+        .whatsapp:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BARBEARIA ESTILO</h1>
+        <p class="subtitulo">Corte com estilo em Recife</p>
+    </header>
+
+    <section>
+        <h2>Serviços</h2>
+        <div class="servico">
+            <span>Corte Masculino</span>
+            <span>R$ 35</span>
+        </div>
+        <div class="servico">
+            <span>Barba</span>
+            <span>R$ 20</span>
+        </div>
+        <div class="servico">
+            <span>Corte + Barba</span>
+            <span>R$ 50</span>
+        </div>
+        <div class="servico">
+            <span>Corte Infantil</span>
+            <span>R$ 30</span>
+        </div>
+    </section>
+
+    <section class="horario">
+        <h2>Horário de Funcionamento</h2>
+        <p>Segunda a Sexta: 09h às 19h</p>
+        <p>Sábado: 09h às 15h</p>
+        <p>Domingo: Fechado</p>
+    </section>
+
+    <section>
+        <h2>Localização</h2>
+        <p>Rua Exemplo, 123 - Bairro, Recife - PE</p>
+    </section>
+
+    <a href="https://wa.me/5581999999999" target="_blank" class="whatsapp">
+        📱 Agende pelo WhatsApp
+    </a>
+</body>
+</html>
