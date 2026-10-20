@@ -10,7 +10,7 @@
 
 Tecnologias usadas 
 -HTML5
--CSS3
+-CSS3 ,
 Para visualizar baixe o arquivo (index.html) e abra no navegador.
 ----
 Projeto desenvolvido como prática de desenvolvimento Web, não adicionei JavaScript , porque inicialmente queria algo visual.
