@@ -15,3 +15,5 @@ Para visualizar baixe o arquivo (index.html) e abra no navegador.
 ----
 Projeto desenvolvido como prática de desenvolvimento Web, não adicionei JavaScript , porque inicialmente queria algo visual.
 obs: Sou estudante.
+
+https://htmlpreview.github.io/?https://raw.githubusercontent.com/bismarck25-glitch/Barbearia-estilo/main/index.html
